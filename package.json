@@ -1,0 +1,24 @@
+{
+  "name": "SASSY-Boilerplate",
+  "version": "1.0.0",
+  "description": "A Nuxt.js boilerpate with some modules I use frequently.",
+  "author": "Yossi Abramov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/sitemap": "^2.3.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/components": "^0.3.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
