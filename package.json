@@ -8,10 +8,13 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "gen": "nuxt build && nuxt export && nuxt start"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/gtm": "^2.3.0",
+    "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.3.0",
     "nuxt": "^2.0.0"
   },
